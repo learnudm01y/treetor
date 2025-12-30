@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 
 /* reset */
 /* main variables */
@@ -1924,7 +1924,7 @@ header {
 	width: 100%;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-color: rgba(252, 237, 234, 0.9);
+	background-color: rgba(232, 240, 234, 0.95);
 }
 
 .header-box {
@@ -3056,7 +3056,7 @@ h6,
 	transform: translate(-50%, -50%);
 	width: 181px;
 	height: 155px;
-	background-image: url(../img/main-text-decor.png);
+	background-image: url(../img/main-text-decor.svg);
 	-webkit-background-size: contain;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -3693,7 +3693,7 @@ h6,
 	transform: translate(-50%, -50%);
 	width: 110.52px;
 	height: 94.85px;
-	background-image: url(../img/main-text-decor.png);
+	background-image: url(../img/main-text-decor.svg);
 	-webkit-background-size: contain;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -4944,7 +4944,7 @@ h6,
 	transform: translate(-50%, -50%);
 	width: 40px;
 	height: 34.33px;
-	background-image: url(../img/main-text-decor.png);
+	background-image: url(../img/main-text-decor.svg);
 	-webkit-background-size: contain;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -7897,7 +7897,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	transform: translate(-50%, -50%);
 	width: 87px;
 	height: 75px;
-	background-image: url(../img/main-text-decor.png);
+	background-image: url(../img/main-text-decor.svg);
 	-webkit-background-size: contain;
 	background-size: contain;
 	background-repeat: no-repeat;
