@@ -110,7 +110,7 @@
                                 <div class="product-info__color">
                                     <span>Сolor:</span>
                                     <ul>
-                                        <li style="background-color: #FCEDEA;"></li>
+                                        <li style="background-color: #e8f0ea;"></li>
                                         <li style="background-color: #FEE1DB;"></li>
                                         <li style="background-color: #FFD9D1;" class="active"></li>
                                         <li style="background-color: #FDC5B9;"></li>
@@ -547,11 +547,11 @@
 <!-- BEGIN SEARCH MODAL -->
 <div id="searchModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:99999; justify-content:center; align-items:center;">
 <div style="background:white; padding:40px; border-radius:10px; max-width:600px; width:90%; position:relative;">
-<button id="closeSearch" style="position:absolute; top:15px; right:15px; background:none; border:none; font-size:30px; cursor:pointer; color:#d05278;">&times;</button>
-<h2 style="color:#d05278; margin-bottom:30px; text-align:center;">Search Our Website</h2>
+<button id="closeSearch" style="position:absolute; top:15px; right:15px; background:none; border:none; font-size:30px; cursor:pointer; color:#0d5c47;">&times;</button>
+<h2 style="color:#0d5c47; margin-bottom:30px; text-align:center;">Search Our Website</h2>
 <form onsubmit="return performSearch(event)">
-<input type="text" id="searchInput" placeholder="Search services, blog posts, or pages..." style="width:100%; padding:15px; font-size:16px; border:2px solid #d05278; border-radius:5px; margin-bottom:20px;">
-<button type="submit" class="btn" style="width:100%; background:#d05278; color:white; padding:0; font-size:18px; border:none; cursor:pointer; border-radius:5px;">Search</button>
+<input type="text" id="searchInput" placeholder="Search services, blog posts, or pages..." style="width:100%; padding:15px; font-size:16px; border:2px solid #0d5c47; border-radius:5px; margin-bottom:20px;">
+<button type="submit" class="btn" style="width:100%; background:#0d5c47; color:white; padding:0; font-size:18px; border:none; cursor:pointer; border-radius:5px;">Search</button>
 </form>
 <div id="searchResults" style="margin-top:20px;"></div>
 </div>
@@ -620,10 +620,10 @@ return;
 }
 
 if(results.length > 0) {
-let html = '<div style="max-height:300px; overflow-y:auto;"><h3 style="color:#d05278; margin-bottom:15px;">Found ' + results.length + ' results:</h3>';
+let html = '<div style="max-height:300px; overflow-y:auto;"><h3 style="color:#0d5c47; margin-bottom:15px;">Found ' + results.length + ' results:</h3>';
 results.forEach(result => {
 html += '<div style="padding:10px; border-bottom:1px solid #eee; margin-bottom:10px;">';
-html += '<a href="' + result.url + '" style="color:#d05278; font-weight:bold; text-decoration:none; display:block; margin-bottom:5px;">' + result.title + '</a>';
+html += '<a href="' + result.url + '" style="color:#0d5c47; font-weight:bold; text-decoration:none; display:block; margin-bottom:5px;">' + result.title + '</a>';
 html += '<span style="color:#999; font-size:14px;">' + result.type + '</span>';
 html += '</div>';
 });

@@ -3,9 +3,9 @@
 /* reset */
 /* main variables */
 :root {
-	--primary-color: #222222;
-	--primary-hover: #000000;
-	--accent-color: #222222;
+	--primary-color: #0d5c47;
+	--primary-hover: #094536;
+	--accent-color: #0d5c47;
 	--text-color: #333;
 	--bg-light: #f8f9fa;
 	--border-radius: 8px;
@@ -3208,7 +3208,7 @@ h6,
 	transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 	position: relative;
 	overflow: hidden;
-	background: linear-gradient(135deg, #d05278 0%, #ff6b9d 100%);
+	background: linear-gradient(135deg, #0d5c47 0%, #7a9b6d 100%);
 	border: none;
 }
 
@@ -3232,8 +3232,8 @@ h6,
 
 .main-block .btn:hover {
 	transform: translateY(-8px) scale(1.08);
-	box-shadow: 0 15px 40px rgba(208, 82, 120, 0.4), 0 5px 15px rgba(0, 0, 0, 0.2);
-	background: linear-gradient(135deg, #ff6b9d 0%, #d05278 100%);
+	box-shadow: 0 15px 40px rgba(13, 92, 71, 0.4), 0 5px 15px rgba(0, 0, 0, 0.2);
+	background: linear-gradient(135deg, #7a9b6d 0%, #0d5c47 100%);
 	letter-spacing: 1px;
 }
 
@@ -3462,7 +3462,7 @@ h6,
 }
 
 .products-item__new {
-	background: rgba(208, 82, 120, 0.7);
+	background: rgba(13, 92, 71, 0.7);
 }
 
 .products-item__info {
@@ -3866,7 +3866,7 @@ h6,
 	-ms-flex-direction: row-reverse;
 	flex-direction: row-reverse;
 	background-position: left bottom;
-	background-color: #fcedea;
+	background-color: #e8f0ea;
 }
 
 .info-blocks__item-reverse .info-blocks__item-text {
@@ -4233,7 +4233,7 @@ h6,
 }
 
 .subscribe-form {
-	background-color: #fcedea;
+	background-color: #e8f0ea;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -4309,7 +4309,7 @@ h6,
 
 .box-field .form-control {
 	background: #ffffff;
-	border: 1px solid #fcedea;
+	border: 1px solid #e8f0ea;
 	height: 60px;
 	line-height: 60px;
 	padding: 18px 29px;
@@ -4847,7 +4847,7 @@ h6,
 	top: 0;
 	content: "";
 	mix-blend-mode: multiply;
-	background-color: #fcedea;
+	background-color: #e8f0ea;
 }
 
 @supports (-ms-ime-align: auto) {
@@ -5037,8 +5037,8 @@ h6,
 }
 
 .faq-item.active .faq-item__head-btn {
-	background: #fcedea;
-	border-color: #fcedea;
+	background: #e8f0ea;
+	border-color: #e8f0ea;
 }
 
 .faq-item.active .faq-item__head-btn:before {
@@ -5597,7 +5597,7 @@ h6,
 }
 
 .post-comment__form {
-	background: #fcedea;
+	background: #e8f0ea;
 	padding: 60px;
 	margin-top: 79px;
 	overflow: hidden;
@@ -7072,7 +7072,7 @@ blockquote:after,
 .checkout-form__item .jq-selectbox__select {
 	height: 60px;
 	background: #ffffff;
-	border: 1px solid #fcedea;
+	border: 1px solid #e8f0ea;
 	color: #999999;
 	font-size: 14px;
 	margin-bottom: 10px;
@@ -7082,7 +7082,7 @@ blockquote:after,
 
 .checkout-form__item .jq-selectbox.focused .jq-selectbox__select {
 	background: #ffffff;
-	border: 1px solid #fcedea;
+	border: 1px solid #e8f0ea;
 }
 
 .checkout-form__item .jq-selectbox__trigger {
@@ -7367,7 +7367,7 @@ blockquote:after,
 	transition: all 0.3s linear;
 	padding: 27px 29px;
 	padding-left: 30px;
-	background: #fcedea;
+	background: #e8f0ea;
 	font-size: 12px;
 	line-height: 145%;
 	text-transform: initial;
@@ -7386,7 +7386,7 @@ blockquote:after,
 	height: 0;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
-	border-top: 10px solid #fcedea;
+	border-top: 10px solid #e8f0ea;
 	-webkit-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
 	transform: rotate(180deg);
@@ -7780,7 +7780,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .profile-aside__subscribe {
-	background: #fcedea;
+	background: #e8f0ea;
 	width: 100%;
 	padding: 40px 40px 48px;
 	position: relative;
@@ -8117,8 +8117,8 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .profile-orders__item.active .profile-orders__col-btn {
-	background: #fcedea;
-	border-color: #fcedea;
+	background: #e8f0ea;
+	border-color: #e8f0ea;
 }
 
 .profile-orders__item.active .profile-orders__col-btn:before {
@@ -10932,7 +10932,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .main-block .slick-dots li button:hover {
-	background: rgba(208, 82, 120, 0.5);
+	background: rgba(13, 92, 71, 0.5);
 }
 
 /* Fade transition for slides */
@@ -11006,7 +11006,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .main-block .slick-dots li button:hover {
-	background: rgba(208, 82, 120, 0.5);
+	background: rgba(13, 92, 71, 0.5);
 }
 
 /* Fade transition for slides */
@@ -11067,7 +11067,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .main-block .slick-dots li button:hover {
-	background: rgba(208, 82, 120, 0.5);
+	background: rgba(13, 92, 71, 0.5);
 }
 
 /* Smooth fade transition */
